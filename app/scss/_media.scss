@@ -1,0 +1,269 @@
+@media screen and(max-width:1200px){
+  .section-wrapper{
+    padding-top: 15%;
+  }
+
+  .main{
+    &__santa{
+      width: 630px;
+      height: 390px;
+    }    
+    &__message-wrapper{
+      left: 10px;
+      top: 110px;
+    }
+  }
+
+  .menu{
+    &__btn-background--active{
+      &::after{
+        width: 1200px;
+        height: 1200px;
+      }
+    }
+    &__mobile{
+      top: 100px;
+      right: 210px;  
+    }
+  }
+
+  .present{
+    & .section-wrapper{
+      padding-left: 0;
+    }
+    &__inner{
+      flex-wrap: wrap;
+    }
+    &__choice-list{
+      margin-bottom: 20px;
+    }
+    &__choice-list li{
+      margin-right: 25px;
+    }
+    &__choice-list li button{
+      width: 130px;
+      height: 130px;
+    }
+    &__choice-list li:nth-child(1) button{
+      background-size: 63px;
+    }
+    &__choice-list li:nth-child(2) button{
+      background-size: 100px;
+    }
+    &__choice-list li:nth-child(3) button{
+      background-size: 80px;
+    }
+    &__info-carusel{
+      max-width: 100%;
+      border: none;
+    }
+    &__info{
+      padding: 20px;
+      min-width: auto;
+    }
+    &__info-title{
+      margin-bottom: 20px;
+    }
+    &__info-text{
+      width: 100%;
+    }
+  }
+
+  .write{
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .container{
+    min-width: 320px;
+  }
+
+  .section-wrapper{
+    height: auto;
+  }
+  
+  .header{
+    top: 25px;
+  }
+
+  .menu{
+    display: none;
+    &__btn-background--active{
+      &::after{
+        width: 800px;
+        height: 800px;
+      }
+    }
+    &__mobile{
+      top: 60px;
+      right: 130px;  
+    }
+    &__mobile-link{
+      font-size: 24px;
+      line-height: 27px;
+    }
+  }
+
+  .main{
+    & .section-wrapper{
+      padding-top: 200px;
+      padding-bottom: 316px;
+    }
+    &__inner{
+      margin-bottom: 75px;
+    }
+    &__title{
+      font-size: 52px;
+      line-height: 60px;
+      margin-bottom: 10px;
+    }
+    &__text{
+      font-size: 28px;
+      line-height: 32px;
+      margin-bottom: 40px;
+    }
+    &__snowflake{
+      display: none;
+    }
+    &__message-wrapper{
+      display: none !important;
+    }
+    &__santa{
+      width: 544px;
+      height: 316px;
+    }
+    &__arrow{
+      display: none;
+    }
+  }
+
+  .present{
+    background-image: url(../img/present-bg-mobile.jpg);
+    background-position: left;
+    margin-bottom: -11px;
+    padding-left: 0px;
+    & .section-wrapper{
+      padding: 130px 0px 95px;
+    }
+    &__choice{
+      margin-right: 0;
+    }
+    &__choice-title{
+      font-size: 52px;
+      line-height: 60px;
+      margin-bottom: 25px;
+    }
+    &__choice-info{
+      font-size: 28px;
+      line-height: 32px;
+    }
+    &__choice-wrapper{
+      font-size: 28px;
+      line-height: 32px;
+      margin-bottom: 35px;
+    }
+    &__choice-list{
+      margin-bottom: 60px;
+    }
+    &__choice-list li{
+      margin-right: 25px;
+    }
+    &__choice-list li button{
+      width: 111px;
+      height: 111px;
+    }
+    &__choice-list li:nth-child(1) button{
+      background-size: 51px;
+    }
+    &__choice-list li:nth-child(2) button{
+      background-size: 91px;
+    }
+    &__choice-list li:nth-child(3) button{
+      background-size: 70px;
+    }
+    &__choice-list .slick-active button{
+      border: 5px solid #fff;
+    }
+    &__info-carusel{
+      padding: 20px;
+    }
+    &__info{
+      flex-direction: column-reverse;
+      padding: 0;
+    }
+    &__info-title{
+      font-size: 42px;
+      line-height: 49px;
+      margin-bottom: 30px;
+    }
+    &__info-text{
+      font-size: 28px;
+      line-height: 33px;
+    }
+  }
+  .write{
+    background-image: url(../img/write-bg-mobile.png);
+    & .section-wrapper{
+      padding: 130px 0 75px;
+    }
+    &__inner{
+      max-width: none;
+    }
+    &__title{
+      margin-bottom: 25px;
+    }
+    &__input{
+      width: 100%;
+      margin: 0 0 25px;
+    }
+    &__form &__input:nth-child(odd){
+      margin-right: 0;
+    }
+    &__select{
+      width: 100%;
+      margin: 0 0 25px;
+    }
+    &__select-link{
+      width: 100%;
+    }
+    &__select-drop{
+      width: 100%;
+    }
+    &__textarea{
+      height: 100px;
+      width: 100%;
+      margin-bottom: 25px;
+    }
+    &__checkbox-text{
+      font-size: 18px;
+      line-height: 21px;
+      color: #fff;
+    }
+
+  }
+  
+
+}
+
+@media screen and (max-width: 446px){
+  .section-wrapper{
+    overflow: hidden;
+  }
+  
+  .present{
+    &__choice-list li button{
+      width: 80px;
+      height: 80px;
+    }
+    &__choice-list li:nth-child(1) button{
+      background-size: 41px;
+    }
+    &__choice-list li:nth-child(2) button{
+      background-size: 61px;
+    }
+    &__choice-list li:nth-child(3) button{
+      background-size: 60px;
+    }
+  }
+}

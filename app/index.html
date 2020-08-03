@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coca-cola</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Risque&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="header__logo">
+          <img src="img/logo.png" alt="">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item"><a class="menu__list-link" href="#main"><span after-name="Main">Main</span></a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#present"><span after-name="About">About</span></a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#present"><span after-name="Products">Products</span></a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#write"><span after-name="Contacts">Contacts</span></a></li>
+          </ul>
+        </nav>
+        <button class="menu__btn">
+          <span class="menu__btn-line menu__btn-line--1"></span>
+          <span class="menu__btn-line menu__btn-line--2"></span>
+        </button>
+        <div class="menu__btn-background">
+          <nav class="menu__mobile">
+            <ul class="menu__mobile-list">
+              <li class="menu__mobile-item"style="--delay:200ms"><a href="#main" class="menu__mobile-link">Main</a></li>
+              <li class="menu__mobile-item"style="--delay:150ms"><a href="#present" class="menu__mobile-link">About</a></li>
+              <li class="menu__mobile-item"style="--delay:100ms"><a href="#present" class="menu__mobile-link">Products</a></li>
+              <li class="menu__mobile-item"style="--delay:50ms"><a href="#write" class="menu__mobile-link">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+<div id="fullpage">
+  <section class="section main">
+    <div class="section-wrapper">
+      <div id="stars-particles"></div>
+      <div id="snow-particles-1"></div>
+      <div class="container">
+        <div class="main__inner">
+          <div class="main__info">
+            <h1 class="main__title">Main Site Title</h1>
+            <p class="main__text">Lorem ipsum descripsum</p>
+            <button class="main__btn">Call to action</button>
+          </div>
+          <div class="main__snowflake"></div>
+          <div class="main__santa">
+  
+            <div class="main__message-wrapper">
+              <div class="main__message"></div>
+              <p class="main__message-text">
+                How how how !!! <br>
+                Like it? <br>
+                Scroll down for more !
+              </p>
+            </div>
+          </div>
+          <a href="#present" class="main__arrow"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section present">
+    <div class="section-wrapper">
+      <div id="snow-particles-2"></div>
+      <div class="container">
+        <div class="present__inner">
+          <div class="present__choice">
+            <h2 class="present__choice-title">At least somewhere you can feel new year atmosphere</h2>
+            <p class="present__choice-info">Choose your present:</p>
+            <div class="present__choice-wrapper"></div>
+          </div>
+          <div class="present__info-carusel">
+           <div class="present__info">
+              <div class="present__info-inner">
+                <h3 class="present__info-title ">Best sock ever</h3>
+              <p class="present__info-text">
+                Reuglar sock have no 
+                present inside
+                Lorem Ipsum is simply dumm  y text of the printing and types etting industry. Lorem 
+                </p>
+              </div>
+              <img src="img/present-1.png" alt="" class="present__info-img">
+           </div>
+           <div class="present__info">
+              <div class="present__info-inner">
+                <h3 class="present__info-title title">Big red hat</h3>
+              <p class="present__info-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sed beatae dolor eligendi impedit quidem 
+                </p>
+              </div>
+              <img src="img/present-2.png" alt="" class="present__info-img" style="width: 150px;">
+           </div>
+           <div class="present__info">
+              <div class="present__info-inner">
+                <h3 class="present__info-title title">Santa`s bag</h3>
+              <p class="present__info-text">
+                Red bag have no 
+                present inside
+                Lorem Ipsum is simply dumm  y text of the printing and types etting industry. Lorem 
+                </p>
+              </div>
+              <img src="img/present-3.png" alt="" class="present__info-img" style="width: 150px;">
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section write">
+    <div class="section-wrapper">
+      <div id="snow-particles-3"></div>
+      <div class="container">
+        <div class="write__inner">
+          <h2 class="write__title title">Write us <br> for real presents</h2>
+        <form action="" class="write__form">
+          <input class="write__input" placeholder="Name" type="text" name="name" id="">
+          <input class="write__input" placeholder="Phone" type="text" name="phone" id="">
+  
+          <div class="write__select">
+            <a href="javascript:void(0);" class="write__select-link">Gender</a>
+            <ul class="write__select-drop">
+              <li class="write__select-item"><a class="write__item-link">Boy</a></li>
+              <li class="write__select-item"><a class="write__item-link">Girl</a></li>
+            </ul>
+            <input type="hidden" id="select" />
+          </div>
+  
+          <input class="write__input" placeholder="Email" type="text" name="email" id="">
+          <textarea class="write__textarea" placeholder="Your witsh" name="" id="" cols="30" rows="10"></textarea>
+          <label class="write__label">
+            <input class="write__checkbox" type="checkbox">
+            <span class="write__checkbox-castom"></span>
+            <span class="write__checkbox-text">Whant Coca-cola with present ?</span>
+          </label>
+        </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
